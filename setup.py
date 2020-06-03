@@ -16,7 +16,7 @@ setup(
     py_modules=['nd2reader_plugin'],
     entry_points={
         "napari.plugin": [
-            "nd2reader = nd2reader_plugin",
+            "nd2reader = napari_nd2_plugin",
         ],
     },
 )
