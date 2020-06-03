@@ -13,7 +13,7 @@ setup(
     author="Chris Wood",
     author_email="cjw@stowers.org",
     license="MIT",
-    py_modules=['nd2reader_plugin'],
+    py_modules=['napari_nd2_plugin'],
     entry_points={
         "napari.plugin": [
             "nd2reader = napari_nd2_plugin",
