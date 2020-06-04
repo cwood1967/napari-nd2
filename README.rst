@@ -18,6 +18,7 @@ Credits
 -------
 
 This `napari`_ plugin was created from the following as examples:
+
     - `napari-dv`_ Napari Delta Vision Reader
     - `napari-aicsimageio`_ Allen Institute IO plugin
 
@@ -27,7 +28,7 @@ License
 Distributed under the terms of the `MIT`_ license,
 "napari-nd2 is free and open source software.
 
-.. _`napari`: https://github.com/napari
+.. _`napari`: https://github.com/napari/napari
 .. _`nd2reader`: https://github.com/rbnvrw/nd2reader
 .. _`pims`: https://github.com/soft-matter/pims
 .. _`pip`: https://pypi.org/project/pip/
