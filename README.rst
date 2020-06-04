@@ -11,7 +11,7 @@ Installation
 
 This plugin can be installed from with `pip`_ from `github`_::
 
-$ pip install git_https://github.com/
+$ pip install git+https://github.com/
 
 .. _`@napari`:https://github.com/napari
 
