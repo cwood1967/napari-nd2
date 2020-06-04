@@ -2,10 +2,14 @@
 napari-nd2
 ==========
 
-Nikon ND2 file reader plugin for `napari`_. This plugin uses the `nd2reader`_ 
-and `pims`_ python packages.
+Nikon ND2 file reader plugin for `napari`_ . This plugin uses the `nd2reader`_ 
+and `pims`_ python packages. 
 
 ----
+
+This `napari`_ plugin was created from the following as examples:
+    - `napari-dv`_ Napari Delta Vision Reader
+    - `napari-aicsimageio`_ Allen Institute IO plugin
 
 Installation
 ------------
@@ -14,7 +18,16 @@ This plugin can be installed from with `pip`_ from github::
 
 $ pip install git+https://github.com/cwood1967/napari-nd2.git
 
-.. _`@napari`: https://github.com/napari
-.. _`@nd2reader`: https://github.com/rbnvrw/nd2reader
-.. _`@pims`: https://github.com/soft-matter/pims
+License
+-------
 
+Distributed under the terms of the `MIT`_ license,
+"napari-nd2 is free and open source software.
+
+.. _`napari`: https://github.com/napari
+.. _`nd2reader`: https://github.com/rbnvrw/nd2reader
+.. _`pims`: https://github.com/soft-matter/pims
+.. _`pip`: https://pypi.org/project/pip/
+.. _`MIT`: http://opensource.org/licenses/MIT
+.. _`napari-aicsimageio`: https://github.com/AllenCellModeling/napari-aicsimageio
+.. _`napari-dv`: https://github.com/tlambert03/napari-dv
