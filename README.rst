@@ -7,16 +7,19 @@ and `pims`_ python packages.
 
 ----
 
-This `napari`_ plugin was created from the following as examples::
-    - `napari-dv`_ Napari Delta Vision Reader
-    - `napari-aicsimageio`_ Allen Institute IO plugin
-
 Installation
 ------------
 
-This plugin can be installed from with `pip`_ from github::
+This plugin can be installed from with `pip`_ from github:
 
 $ pip install git+https://github.com/cwood1967/napari-nd2.git
+
+Credits
+-------
+
+This `napari`_ plugin was created from the following as examples:
+    - `napari-dv`_ Napari Delta Vision Reader
+    - `napari-aicsimageio`_ Allen Institute IO plugin
 
 License
 -------
