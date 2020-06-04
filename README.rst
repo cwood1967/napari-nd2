@@ -7,7 +7,7 @@ and `pims`_ python packages.
 
 ----
 
-This `napari`_ plugin was created from the following as examples:
+This `napari`_ plugin was created from the following as examples::
     - `napari-dv`_ Napari Delta Vision Reader
     - `napari-aicsimageio`_ Allen Institute IO plugin
 
