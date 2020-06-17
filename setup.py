@@ -14,7 +14,7 @@ setup(
     author_email="cjw@stowers.org",
     maintainer="Chris Wood",
     maintainer_email="cjw@stowers.org",
-    url="https://github.com/cwood1967/napari-nd2.git"
+    url="https://github.com/cwood1967/napari-nd2.git",
     description="Open Nikon ND2 files in napari",
     long_description=read("README.rst"),
     python_requires=">=3.6",
