@@ -9,7 +9,7 @@ def read(fname):
 
 setup(
     name="napari-nd2",
-    version="0.0.1",
+    version="0.0.2",
     author="Chris Wood",
     author_email="cjw@stowers.org",
     maintainer="Chris Wood",
@@ -17,6 +17,7 @@ setup(
     description="Open Nikon ND2 files in napari",
     long_description=read("README.rst"),
     python_requires=">=3.6",
+    install_requires=["nd2reader>=3.2.3", "napari_plugin_engine>=0.1.4"],
     license="MIT",
     py_modules=['napari_nd2_plugin'],
     entry_points={
