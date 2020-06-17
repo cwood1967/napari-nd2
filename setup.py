@@ -12,6 +12,11 @@ setup(
     version="0.0.1",
     author="Chris Wood",
     author_email="cjw@stowers.org",
+    maintainer="Chris Wood",
+    maintainer_email="cjw@stowers.org",
+    description="Open Nikon ND2 files in napari",
+    long_description=read("README.rst"),
+    python_requires=">=3.6",
     license="MIT",
     py_modules=['napari_nd2_plugin'],
     entry_points={
