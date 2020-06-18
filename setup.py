@@ -2,6 +2,7 @@
 import codecs
 import os
 from setuptools import setup
+import setuptools
 
 def read(fname):
     file_path = os.path.join(os.path.dirname(__file__), fname)
@@ -18,6 +19,7 @@ setup(
     description="Open Nikon ND2 files in napari",
     long_description=read("README.rst"),
     python_requires=">=3.6",
+    packages=setuptools.find_packages(),
     install_requires=["nd2reader>=3.2.3", "napari_plugin_engine>=0.1.4"],
     license="MIT",
     py_modules=['napari_nd2_plugin'],
