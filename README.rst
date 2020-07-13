@@ -11,8 +11,9 @@ Installation
 ------------
 
 This plugin can be installed from with `pip`_ from github:
-
+```
 $ pip install git+https://github.com/cwood1967/napari-nd2.git
+```
 
 Credits
 -------
