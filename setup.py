@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name="napari-nd2",
-    version="0.0.2",
+    version="0.0.3",
     author="Chris Wood",
     author_email="cjw@stowers.org",
     maintainer="Chris Wood",
