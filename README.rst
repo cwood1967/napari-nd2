@@ -32,6 +32,6 @@ Distributed under the terms of the `Apache-2.0`_ license,
 .. _`nd2reader`: https://github.com/rbnvrw/nd2reader
 .. _`pims`: https://github.com/soft-matter/pims
 .. _`pip`: https://pypi.org/project/pip/
-.. _`MIT`: http://opensource.org/licenses/Apache-2.0
+.. _`Apache`: http://opensource.org/licenses/Apache-2.0
 .. _`napari-aicsimageio`: https://github.com/AllenCellModeling/napari-aicsimageio
 .. _`napari-dv`: https://github.com/tlambert03/napari-dv
