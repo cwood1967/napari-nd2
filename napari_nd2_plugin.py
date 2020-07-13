@@ -2,7 +2,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 from nd2reader import ND2Reader
 import numpy as np
-
+import os
 from napari_plugin_engine import napari_hook_implementation
 
 PathLike = Union[str, List[str]]
@@ -11,6 +11,7 @@ ReaderFunction = Callable[[PathLike], List[LayerData]]
 
 def nd2_reader(path: str) -> List[LayerData]:
     ndx = ND2Reader(path)
+    name = os.path.basename(path)[:-4]
     sizes = ndx.sizes
     
     if 't' not in sizes:
@@ -32,7 +33,7 @@ def nd2_reader(path: str) -> List[LayerData]:
 
     params = {
         "channel_axis": 2,
-        "name":"My ND2 image",
+        "name":name,
     }
 
     return [(image, params)]
