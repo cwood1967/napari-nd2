@@ -20,7 +20,9 @@ def nd2_reader(path: str) -> List[LayerData]:
     Returns
     _______
     image : array
+        The image as a numpy array
     params : dict
+        Dictionary with info for adding image
     '''
     ndx = ND2Reader(path)
     name = os.path.basename(path)[:-4]
