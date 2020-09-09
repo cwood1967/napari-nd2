@@ -10,6 +10,18 @@ LayerData = Union[Tuple[Any], Tuple[Any, Dict], Tuple[Any, Dict, str]]
 ReaderFunction = Callable[[PathLike], List[LayerData]]
 
 def nd2_reader(path: str) -> List[LayerData]:
+    '''Read a Nikon ND2 file
+    
+    Parameters
+    ----------
+    path : str
+        Path to the image to open
+        
+    Returns
+    _______
+    image : array
+    params : dict
+    '''
     ndx = ND2Reader(path)
     name = os.path.basename(path)[:-4]
     sizes = ndx.sizes
