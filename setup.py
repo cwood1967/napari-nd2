@@ -21,7 +21,7 @@ setup(
     python_requires=">=3.6",
     packages=setuptools.find_packages(),
     install_requires=["nd2reader>=3.2.3", "napari_plugin_engine>=0.1.4"],
-    license="MIT",
+    license="Apache",
     py_modules=['napari_nd2_plugin'],
     entry_points={
         "napari.plugin": [
