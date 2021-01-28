@@ -45,8 +45,9 @@ def nd2_reader(path: str) -> List[LayerData]:
     for i in range(n):
         image[i] = ndx.get_frame(i)
 
+    image = np.squeeze(image)
+
     params = {
-        "channel_axis": 2,
         "name":name,
     }
 
